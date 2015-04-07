@@ -20,7 +20,7 @@ sizeFactor = #1.5
   tagline = ""
 }
 
-tuneTitle = "Unknown"
+tuneTitle = "St. Mary's"
 tuneMeter = "C.M."
 author = ""
 voiceFontSize = 0
