@@ -31,7 +31,7 @@ cantusMusic = {
   \autoBeamOff
   \relative c'' {
     \override Staff.NoteHead.style = #'baroque
-    \set Score.tempoHideNote = ##t \tempo 4 = 120
+    \set Score.tempoHideNote = ##t \tempo 2 = 84
     \override Staff.TimeSignature #'break-visibility = ##(#f #f #f) 
     \set fontSize = \voiceFontSize
       \time 12/2
@@ -51,6 +51,11 @@ cantusMusic = {
       \time 9/2 r2 fis a2. g2 fis4 e2. g4 fis1
       \time 12/2 b2 d1 a2 b( a) g fis1 e2 b'1
       \time 11/2 d2 cis2.( b4) a4.( b8) cis4( b8[ a]) b1 e,\breve \bar "||"
+      
+      \time 12/2 e4. fis8 g4. a8 g4 fis e2 b'2. a4 g2 fis2. g4 fis e b'2. a4
+      \time 9/2 b4 cis d2. cis!4 b d cis!4. b8 cis!4 d e2 b1
+      \time 12/2 b4 cis! d2. b4 a c! b4. c8 b4 a g2 fis4. g8 a4 g fis e b'2. cis!4
+      \time 11/2 d2 cis!2. b4 a b cis!4( b8[ a]) b4 c!2 b4 e,\breve \bar "|."
     }
 }
 
@@ -76,6 +81,11 @@ mediusMusic = {
     b'2 d1 b2 cis1 e2 b1
     r1 b2 d1 a2 b( a) g2. fis4 e1
     b'2 e d c4.( b8) a2. g2 fis4 e\breve
+    
+    r2 e4. fis8 g4. a8 g4 fis e2 b'1 a2. g4 a2 g1
+    e'2 d4. cis8 b4 a d2 e2. d4 cis2 b1
+    r2 b4 cis d2. e4 d2. cis4 b e d2 fis4 e d c! b2. a4 
+    g2 a2. b4 cis d e e,2 e4 dis2 e\breve
   }
 }
 
